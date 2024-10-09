@@ -11,7 +11,7 @@ Rewrite和Scripting依然有效
 */
 
 var wifiname = $network.wifi.ssid;
-var proxywifi = ["tke","tke_5G"];
+var proxywifi = ["Xiaomi_0B89","Xiaomi_0B89_5G"];
 for (var i = 0; i < proxywifi.length; i++) {
 	if (wifiname==proxywifi[i]){
 		$surge.setOutboundMode("direct");
